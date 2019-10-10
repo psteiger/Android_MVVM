@@ -1,4 +1,4 @@
-package com.freelapp.myapplication.ViewModel
+package com.freelapp.myapplication.viewmodel
 
 import android.util.Log
 

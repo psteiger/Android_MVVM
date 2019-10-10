@@ -2,7 +2,7 @@ package com.freelapp.myapplication.model
 
 import android.util.Log
 import androidx.lifecycle.LiveData
-import com.freelapp.myapplication.ViewModel.Resource
+import com.freelapp.myapplication.viewmodel.Resource
 import com.google.firebase.database.*
 
 class FirebaseResourceLiveData<T>(path: String, type: GenericTypeIndicator<T>) : LiveData<Resource<T>>() {

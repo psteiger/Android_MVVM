@@ -1,4 +1,4 @@
-package com.freelapp.myapplication.View
+package com.freelapp.myapplication.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -7,7 +7,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.freelapp.myapplication.R
 import com.freelapp.myapplication.model.User
-import com.freelapp.myapplication.ViewModel.UsersViewModel
+import com.freelapp.myapplication.viewmodel.UsersViewModel
 
 class MainActivity : AppCompatActivity() {
 

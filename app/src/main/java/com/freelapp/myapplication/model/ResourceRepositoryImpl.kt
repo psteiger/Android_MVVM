@@ -1,6 +1,6 @@
 package com.freelapp.myapplication.model
 
-import com.freelapp.myapplication.ViewModel.ResourceRepository
+import com.freelapp.myapplication.viewmodel.ResourceRepository
 import com.google.firebase.database.GenericTypeIndicator
 
 class ResourceRepositoryImpl<T>(path: String,
