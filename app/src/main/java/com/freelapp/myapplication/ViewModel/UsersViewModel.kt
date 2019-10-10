@@ -1,6 +1,8 @@
-package com.freelapp.myapplication
+package com.freelapp.myapplication.ViewModel
 
 import androidx.lifecycle.ViewModel
+import com.freelapp.myapplication.model.ResourceRepositoryImpl
+import com.freelapp.myapplication.model.User
 import com.google.firebase.database.GenericTypeIndicator
 import java.util.HashMap;
 
@@ -9,7 +11,7 @@ class UsersViewModel : ViewModel() {
         ResourceRepositoryImpl(
             "users",
             (HashMap<String, User>()).type
-        ).allUsers
+        ).allItems
 
     inline val <reified T> T.type
         get() = object : GenericTypeIndicator<T>() {}
